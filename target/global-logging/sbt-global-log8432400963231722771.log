@@ -1,0 +1,647 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(cbf564b0-6c48-4379-b9db-7a89de2ff684), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/anjim1/Desktop/CS320/cs320-group16/target/scala-3.1.3/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/anjim1/Desktop/CS320/cs320-group16/target/scala-3.1.3/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestCommentClosedTwice[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestOperators[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestCombinations[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestTwoFiles[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestStringLiterals[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestTooBigInt[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestSingleAmp[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestSingleBar[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment2[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment3[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedString1[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedString2[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestWhitespace[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestDelimiters[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestComments[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestIdentifiers[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestKeywords[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestInvalid[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestIntLiterals[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 20 total, 0.563s[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestCommentClosedTwice[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestCommentClosedTwice[0m failed: scala.[31mNotImplementedError[0m: an implementation is missing, took 0.002 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestIfCondition[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestIfCondition[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestUnaryWithinUnary[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestUnaryWithinUnary[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestQualifiedNames[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestQualifiedNames[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestErrorToken1[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestErrorToken1[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestErrorToken2[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestErrorToken2[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestWrongQName1[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestWrongQName1[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestWrongQName2[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestWrongQName2[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.009 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestWrongQName3[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestWrongQName3[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestWrongQName4[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestWrongQName4[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestValAsOperand[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestValAsOperand[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestLL1[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestLL1[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestAssoc[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestAssoc[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestEmpty[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestEmpty[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestList[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestList[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestFunDefs[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestFunDefs[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestEmptyFile[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestEmptyFile[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestValError[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestValError[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestValInVal[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestValInVal[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestMissingOperand[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestMissingOperand[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestPrecedence[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestPrecedence[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestUnmatchedParen[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestUnmatchedParen[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestUnmatchedModule[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestUnmatchedModule[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestMatchAsOperand[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestMatchAsOperand[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestIntError1[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestIntError1[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestIntError2[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestIntError2[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestIntError3[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestIntError3[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestClassDefError1[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestClassDefError1[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestClassDefError2[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestClassDefError2[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestClassDefError3[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestClassDefError3[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestClassDefError4[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestClassDefError4[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestClassDefs[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestClassDefs[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestMatchScrutinee[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestMatchScrutinee[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestAssocSemicolon[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestAssocSemicolon[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestIfPrecedence[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestIfPrecedence[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestFunDefError1[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestFunDefError1[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestFunDefError2[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestFunDefError2[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestFunDefError3[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestFunDefError3[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestFunDefError4[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestFunDefError4[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestFunDefError5[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestFunDefError5[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestFunDefError6[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestFunDefError6[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestChainedMatch[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestChainedMatch[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestTypeWidth[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestTypeWidth[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestUnmatchedModuleName[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestUnmatchedModuleName[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestParens[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestParens[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestNestedMatch[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestNestedMatch[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestPatterns[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestPatterns[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestArgsError1[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestArgsError1[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestArgsError2[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestArgsError2[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestFunCalls[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestFunCalls[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mParserTests[0m.[36mtestLiterals[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mParserTests[0m.[31mtestLiterals[0m failed: java.lang.[31mNoClassDefFoundError[0m: Could not initialize class amyc.parsing.Parser$, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.ParserTests.<init>([35mParserTests.scala[0m:[33m21[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)[0m
+[0m[[0m[31merror[0m] [0m[0m    at java.lang.reflect.Constructor.newInstance(Constructor.java:483)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ExceptionInInitializerError: Exception scala.NotImplementedError: an implementation is missing [in thread "pool-1-thread-1"][0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.$qmark$qmark$qmark(Predef.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.literal(Parser.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m    at amyc.parsing.Parser$.<clinit>(Parser.scala:76)[0m
+[0m[[0m[31merror[0m] [0m[0m    ... 32 more[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m51 failed[0m[34m, [0m[34m0 ignored[0m[34m, 51 total, 0.142s[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 71, Failed 51, Errors 0, Passed 20[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	amyc.ParserTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 10 s, completed 19 Oct 2022, 10:22:24[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

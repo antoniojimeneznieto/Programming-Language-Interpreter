@@ -1,0 +1,134 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(bfa46019-5a86-402f-9dba-2cffb36a01f6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/anjim1/Desktop/CS320/cs320-group16/target/scala-3.1.3/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E129] Potential Issue Warning: /Users/anjim1/Desktop/CS320/cs320-group16/src/main/scala/amyc/parsing/Lexer.scala:137:25 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m137 |[0m    [33mif[0m (pos >= s.length) [31mtrue[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                         ^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mA pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestCommentClosedTwice[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestCommentClosedTwice[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0mOutput is different:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mOutput: [0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(/)(1:1)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(*)(1:2)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(1:3)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(This)(1:4)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(1:8)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(comment)(1:9)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(1:16)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(is)(1:17)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(1:19)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(closed)(1:20)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(1:26)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(twice)(1:27)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(,)(1:32)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(1:33)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(which)(2:1)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(2:6)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(should)(2:7)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(2:13)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(be)(2:14)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(2:16)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(an)(2:17)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(2:19)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(error)(2:20)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(:)(2:25)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(2:26)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(3:1)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(*)(4:1)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(/)(4:2)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(*)(4:3)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(/)(4:4)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(4:5)[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mExpected output: [0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(*)(4:3)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(/)(4:4)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(4:5)[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.184 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestUnclosedComment[0m failed: Test should fail but it passed!, took 0.019 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestOperators[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestOperators[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0m  ?:?: Unknown token at /var/folders/cr/8ypzb9l94nz2d0rbv819kmrr0000gn/T/amyc1699922466241710678/passing/Operators.amy:1:30: ![0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.014 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestCombinations[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestCombinations[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0mOutput is different:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mOutput: [0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(object)(1:1)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<=)(1:7)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id)(1:9)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(1:11)[0m
+[0m[[0m[31merror[0m] [0m[0mIntLitToken(1)(1:12)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(++)(1:13)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(+)(1:15)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(1:16)[0m
+[0m[[0m[31merror[0m] [0m[0mIntLitToken(1)(1:17)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken({)(1:18)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id)(1:19)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(})(1:21)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(()(1:22)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken())(1:23)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(class)(1:24)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<=)(1:29)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(=>)(1:31)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(==)(1:33)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<)(1:35)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(%)(1:36)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(1:37)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(2:1)[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mExpected output: [0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(object)(1:1)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<=)(1:7)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id_1)(1:9)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(++)(1:13)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(+)(1:15)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(1:16)[0m
+[0m[[0m[31merror[0m] [0m[0mIntLitToken(1)(1:17)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken({)(1:18)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id)(1:19)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(})(1:21)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(()(1:22)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken())(1:23)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(class)(1:24)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<=)(1:29)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(=>)(1:31)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(==)(1:33)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<)(1:35)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(%)(1:36)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(2:1)[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.016 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestTwoFiles[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestTwoFiles[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0m  ?:?: Unknown token at /var/folders/cr/8ypzb9l94nz2d0rbv819kmrr0000gn/T/amyc15226416813820604446/passing/Operators.amy:1:30: ![0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.064 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestStringLiterals[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestStringLiterals[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0mOutput is different:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mOutput: [0m
+[0m[[0m[31merror[0m] [0m[0mStringLitToken("This is a string"[0m
+[0m[[0m[31merror[0m] [0m[0m"Another with ^^ | # invalid chars"[0m
+[0m[[0m[31merror[0m] [0m[0m"No escape \n characters \t"[0m
+[0m[[0m[31merror[0m] [0m[0m" \\ No comments /* either ")(1:1)[0m
+[0m[[0m[31merror[0m] [0m[0mSpaceToken()(4:29)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(5:1)[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mExpected output: [0m
+[0m[[0m[31merror[0m] [0m[0mStringLitToken(This is a string)(1:1)[0m
+[0m[[0m[31merror[0m] [0m[0mStringLitToken(Another with ^^ | # invalid chars)(2:1)[0m
+[0m[[0m[31merror[0m] [0m[0mStringLitToken(No escape \n characters \t)(3:1)[0m
+[0m[[0m[31merror[0m] [0m[0mStringLitToken( \\ No comments /* either )(4:1)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(5:1)[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.009 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestTooBigInt[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

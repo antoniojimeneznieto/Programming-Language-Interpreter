@@ -1,0 +1,164 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(282befb6-e9d1-4c85-ad90-a94639ff234a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestCommentClosedTwice[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestCommentClosedTwice[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0m  ?:?: Unknown token at /var/folders/cr/8ypzb9l94nz2d0rbv819kmrr0000gn/T/amyc2384435777317201015/passing/CommentClosedTwice.amy:1:1: /* This comment is closed twice,[0m
+[0m[[0m[31merror[0m] [0m[0mwhich should be an error:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m*/*/[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.097 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestUnclosedComment[0m failed: Test should fail but it passed!, took 0.009 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestOperators[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestCombinations[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestCombinations[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0mOutput is different:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mOutput: [0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(object)(1:1)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<=)(1:7)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id)(1:9)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(1:11)[0m
+[0m[[0m[31merror[0m] [0m[0mIntLitToken(1)(1:12)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(++)(1:13)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(+)(1:15)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(1:16)[0m
+[0m[[0m[31merror[0m] [0m[0mIntLitToken(1)(1:17)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken({)(1:18)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id)(1:19)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(})(1:21)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(()(1:22)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken())(1:23)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(class)(1:24)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<=)(1:29)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(=>)(1:31)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(==)(1:33)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<)(1:35)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(%)(1:36)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(2:1)[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mExpected output: [0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(object)(1:1)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<=)(1:7)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id_1)(1:9)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(++)(1:13)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(+)(1:15)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(1:16)[0m
+[0m[[0m[31merror[0m] [0m[0mIntLitToken(1)(1:17)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken({)(1:18)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id)(1:19)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(})(1:21)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(()(1:22)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken())(1:23)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(class)(1:24)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<=)(1:29)[0m
+[0m[[0m[31merror[0m] [0m[0mDelimiterToken(=>)(1:31)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(==)(1:33)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(<)(1:35)[0m
+[0m[[0m[31merror[0m] [0m[0mOperatorToken(%)(1:36)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(2:1)[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.014 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestTwoFiles[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestStringLiterals[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestTooBigInt[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestSingleAmp[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestSingleBar[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment2[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestUnclosedComment2[0m failed: Test should fail but it passed!, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment3[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestUnclosedComment3[0m failed: Test should fail but it passed!, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedString1[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedString2[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestWhitespace[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestWhitespace[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0m  ?:?: Unknown token at /var/folders/cr/8ypzb9l94nz2d0rbv819kmrr0000gn/T/amyc14307831810695255529/passing/Whitespace.amy:1:1: 	[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestDelimiters[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestComments[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestComments[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0m  ?:?: Unknown token at /var/folders/cr/8ypzb9l94nz2d0rbv819kmrr0000gn/T/amyc16483021318810525175/passing/Comments.amy:3:3: /* This is also a comment */[0m
+[0m[[0m[31merror[0m] [0m[0m3 /* Still * /* comment */[0m
+[0m[[0m[31merror[0m] [0m[0m4 /* Multiline[0m
+[0m[[0m[31merror[0m] [0m[0m/*[0m
+[0m[[0m[31merror[0m] [0m[0m*[0m
+[0m[[0m[31merror[0m] [0m[0mComment[0m
+[0m[[0m[31merror[0m] [0m[0m*/[0m
+[0m[[0m[31merror[0m] [0m[0m5 /***/[0m
+[0m[[0m[31merror[0m] [0m[0m/* abc **/ 6 /* def */[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.007 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestIdentifiers[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestIdentifiers[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0mOutput is different:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mOutput: [0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(app)(1:1)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(boolean)(1:5)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(caSe)(2:1)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(Class)(2:6)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(df)(2:12)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(elze)(2:15)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(Error)(2:20)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(Extends)(2:26)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(False)(2:34)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(iff)(2:40)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(int)(2:44)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(module)(2:48)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(string)(2:55)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(True)(3:1)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(unit)(3:6)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(vals)(3:11)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(this)(5:1)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(5:5)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(is)(5:6)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(5:8)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id)(5:9)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(this)(5:12)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(5:16)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(IS)(5:17)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(5:19)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(id2)(5:20)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(st1ll1s)(5:24)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(5:31)[0m
+[0m[[0m[31merror[0m] [0m[0mIntLitToken(1)(5:32)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(d)(5:33)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(St1ll1s)(7:1)[0m
+[0m[[0m[31merror[0m] [0m[0mKeywordToken(_)(7:8)[0m
+[0m[[0m[31merror[0m] [0m[0mIntLitToken(1)(7:9)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(d)(7:10)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(8:1)[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mExpected output: [0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(app)(1:1)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(boolean)(1:5)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(caSe)(2:1)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(Class)(2:6)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(df)(2:12)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(elze)(2:15)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(Error)(2:20)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(Extends)(2:26)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(False)(2:34)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(iff)(2:40)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(int)(2:44)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(module)(2:48)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(string)(2:55)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(True)(3:1)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(unit)(3:6)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(vals)(3:11)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(this_is_id)(5:1)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(this_IS_id2)(5:12)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(st1ll1s_1d)(5:24)[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifierToken(St1ll1s_1d)(7:1)[0m
+[0m[[0m[31merror[0m] [0m[0mEOFToken()(8:1)[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.01 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestKeywords[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestInvalid[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestIntLiterals[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m8 failed[0m[34m, [0m[34m0 ignored[0m[34m, 20 total, 0.492s[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 20, Failed 8, Errors 0, Passed 12[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	amyc.LexerTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 12 Oct 2022, 11:17:19[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

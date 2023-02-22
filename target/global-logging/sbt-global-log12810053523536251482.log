@@ -1,0 +1,57 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(08781228-517c-4264-99e1-3701991f11d0), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/anjim1/Desktop/CS320/cs320-group16/target/scala-3.1.3/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestCommentClosedTwice[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestCommentClosedTwice[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0m  ?:?: Unknown token at /var/folders/cr/8ypzb9l94nz2d0rbv819kmrr0000gn/T/amyc5965326762923162381/passing/CommentClosedTwice.amy:1:1: /* This comment is closed twice,[0m
+[0m[[0m[31merror[0m] [0m[0mwhich should be an error:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m*/*/[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.103 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestUnclosedComment[0m failed: Test should fail but it passed!, took 0.008 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestOperators[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestCombinations[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestTwoFiles[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestStringLiterals[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestTooBigInt[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestSingleAmp[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestSingleBar[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment2[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestUnclosedComment2[0m failed: Test should fail but it passed!, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedComment3[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestUnclosedComment3[0m failed: Test should fail but it passed!, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedString1[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestUnclosedString2[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestWhitespace[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestWhitespace[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0m  ?:?: Unknown token at /var/folders/cr/8ypzb9l94nz2d0rbv819kmrr0000gn/T/amyc5321740081961906379/passing/Whitespace.amy:1:1: 	[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestDelimiters[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestComments[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest amyc.[33mLexerTests[0m.[31mtestComments[0m failed: [0m
+[0m[[0m[31merror[0m] [0m[0m  ?:?: Unknown token at /var/folders/cr/8ypzb9l94nz2d0rbv819kmrr0000gn/T/amyc16483637100079703465/passing/Comments.amy:3:3: /* This is also a comment */[0m
+[0m[[0m[31merror[0m] [0m[0m3 /* Still * /* comment */[0m
+[0m[[0m[31merror[0m] [0m[0m4 /* Multiline[0m
+[0m[[0m[31merror[0m] [0m[0m/*[0m
+[0m[[0m[31merror[0m] [0m[0m*[0m
+[0m[[0m[31merror[0m] [0m[0mComment[0m
+[0m[[0m[31merror[0m] [0m[0m*/[0m
+[0m[[0m[31merror[0m] [0m[0m5 /***/[0m
+[0m[[0m[31merror[0m] [0m[0m/* abc **/ 6 /* def */[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.006 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestIdentifiers[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestKeywords[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestInvalid[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0mTest amyc.[33mLexerTests[0m.[36mtestIntLiterals[0m started[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m6 failed[0m[34m, [0m[34m0 ignored[0m[34m, 20 total, 0.484s[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 20, Failed 6, Errors 0, Passed 14[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	amyc.LexerTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed 12 Oct 2022, 11:19:11[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
