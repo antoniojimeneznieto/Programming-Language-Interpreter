@@ -1,0 +1,45 @@
+object Person 
+    abstract class Person
+    case class computerScientist(name: String, age: Int(32), eyes: Int(32) = 2, canFly: Boolean = false, canSwim: Boolean = true) extends Person
+
+    fn canFly(person: Person = computerScientist("", 0)): Boolean = {
+        person match {
+            case computerScientist(name, age, eyes, canFly, canSwim) =>
+                canFly
+        }
+    }
+    
+    fn canSwim(person: Person = computerScientist("", 0)): Boolean = {
+        person match {
+            case computerScientist(name, age, eyes, canFly, canSwim) =>
+                canSwim
+        }
+    }
+    
+    fn ageIn(person: Person, numberOfYears: Int(32) = 0): Int(32) = {
+        person match {
+            case computerScientist(name, age, eyes, canFly, canSwim) =>
+                age + numberOfYears
+        }
+    }
+
+    fn toString(person: Person): String = {
+        person match {
+            case computerScientist(name, age, eyes, canFly, canSwim) =>
+                "Name: "      ++ name ++
+                " Age: "      ++ Std.intToString(age) ++
+                " Eyes: "     ++ Std.intToString(eyes) ++
+                " Can fly: "  ++ Std.booleanToString(canFly) ++
+                " Can swim: " ++ Std.booleanToString(canSwim)
+        }        
+    }
+
+    val antonio: Person = computerScientist(name = "Antonio", age = 21);
+    // Name: Antonio Age: 21 Eyes: 2 Can fly: false Can swim: true
+    Std.printString(toString(antonio));
+
+    val viktor: Person = computerScientist(name = "Viktor", age = 32, canFly = true);
+    // Name: Viktor Age: 32 Eyes: 2 Can fly: true Can swim: true
+    Std.printString(toString(viktor))
+
+end Person

@@ -1,0 +1,11 @@
+object functionExample 
+  fn foo(i: Int(32), j: Int(32) = 42): Int(32) = { i + j }
+  Std.printInt(foo(    0));        // 42
+  Std.printInt(foo(    1));        // 43
+  Std.printInt(foo(i = 5, j = 7)); // 12
+  Std.printInt(foo(    5,     7)); // 12
+  Std.printInt(foo(    5, j = 7)); // 12
+  Std.printInt(foo(i = 7));        // 49
+  Std.printInt(foo(    0,     0))  // 0 
+  
+end functionExample 

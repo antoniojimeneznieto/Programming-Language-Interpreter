@@ -1,0 +1,40 @@
+object Rational 
+    abstract class Number
+    case class Rational(numerator: Int(32), denominator: Int(32) = 1) extends Number
+
+    fn add(r: Number, s: Number): Number = {
+
+        r match {
+            case Rational(rNum, rDen) =>
+                s match {
+                    case Rational(sNum, sDen) =>
+                        Rational(rNum * sDen + sNum * rDen, rDen * sDen)
+                }
+        }
+    }
+
+    fn toString(r: Number): String = {
+        r match { 
+            case Rational(num, den) => 
+                if(den == 1) { intToString(num) }
+                else         { intToString(num) ++ "/" ++ intToString(den) }
+        }
+    }
+        
+
+    val r: Number = Rational(2);
+    val s: Number = Rational(1, 2);
+    val result: Number = add(r, s);
+
+    result match { 
+        case Rational(num, den) => 
+            Std.printString(toString(r));     // 2
+            Std.printString(toString(s));     // 1/2
+            Std.printInt(num);                // 5
+            Std.printInt(den);                // 2
+
+            // 5/2
+            Std.printString(toString(r) ++ " + " ++ toString(s) ++ " = " ++ toString(result)) 
+    } 
+
+end Rational

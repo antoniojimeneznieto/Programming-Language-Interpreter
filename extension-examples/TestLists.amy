@@ -1,0 +1,25 @@
+object TestLists 
+  val l: L.List = L.Cons(5, L.Cons(-5, L.Cons(-1, L.Cons(0, L.Cons(10, L.Nil())))));
+  // List(1, 2, 3)
+  Std.printString(L.toString(L.concat(L.Cons(1, L.Cons(2, L.Nil())), L.Cons(3, L.Nil()))));
+  // List(1, 2, 3)
+  Std.printString(L.toString(L.concat(l1 = L.Cons(1, L.Cons(2, L.Nil())), l2 = L.Cons(3, L.Nil()))));
+  // List(3, 1, 2)
+  Std.printString(L.toString(L.concat(l2 = L.Cons(1, L.Cons(2, L.Nil())), l1 = L.Cons(3, L.Nil()))));
+  // List(1, 2)
+  Std.printString(L.toString(L.concat(L.Cons(1, L.Cons(2, L.Nil())))));
+  // 9
+  Std.printInt(L.sum(l));
+  // 0
+  Std.printInt(L.sum());
+  // List(-5, -1, 0, 5, 10)
+  Std.printString(L.toString(L.mergeSort(l)));
+
+  val newList: L.List = L.Cons(5);
+  // List(5)
+  Std.printString(L.toString(newList));
+
+  val anotherList: L.List = L.Cons(t = L.Cons(2), h = 1);
+  // List(1, 2)
+  Std.printString(L.toString(anotherList))
+end TestLists

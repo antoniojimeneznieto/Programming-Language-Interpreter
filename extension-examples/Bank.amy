@@ -1,0 +1,26 @@
+object Bank 
+  abstract class account
+  case class clientAccount(id: Int(32), balance: Int(32) = 0) extends account
+
+  fn transaction(sender: account, receiver: account, amount: Int(32), fees: Int(32) = 0): account = {
+
+        sender match {
+            case clientAccount(id, balance) =>
+                if (balance < amount + fees) { 
+                    Std.printString("Not enough money");
+                    sender
+                }
+                else {
+                    clientAccount(id, balance - (amount + fees))
+                }
+        }
+    }
+
+    val theo: account = clientAccount(0, 1000);
+    val viktor: account = clientAccount(0); // New user with default balance 
+
+    val theo2: account = transaction(sender = theo, receiver = viktor, amount = 500);
+    
+    theo2 match { case clientAccount(id, balance) => Std.printInt(balance) } // 500   
+
+end Bank 

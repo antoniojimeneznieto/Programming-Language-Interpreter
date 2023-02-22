@@ -1,0 +1,22 @@
+object example 
+  abstract class Foo
+  case class Bar(i: Int(32), j: Int(32), b: Boolean = false) extends Foo
+
+  fn foobar(i: Int(32), j: Int(32), b: Boolean = false): Int(32) = {
+    if (b == true) { 42 } else { i + j }
+  }
+  val v1: Foo = Bar(0, j = 1);
+  v1 match {
+    case Bar(x, y, b) => Std.printInt(foobar(x, y, b)) //1
+  };
+
+  val v2: Foo = Bar(0, 0, b = true);
+  v2 match {
+    case Bar(x, y, b) => Std.printInt(foobar(x, y, b)) //42
+  };
+
+  val v3: Foo = Bar(j=1, i=2, b=false);
+  v3 match {
+    case Bar(x, y, b) => Std.printInt(foobar(x, y, b)) //3
+  }
+end example
