@@ -1,0 +1,6 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 6 products, 2 sources, 22 libraries
+[debug] current source = Set(${BASE}/project/StudentTasks.scala, ${BASE}/project/MOOCSettings.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] No changes
