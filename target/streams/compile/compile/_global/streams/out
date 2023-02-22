@@ -1,7 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E129] Potential Issue Warning: /Users/anjim1/Desktop/CS320/cs320-group16/src/main/scala/amyc/parsing/Lexer.scala:144:27 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m144 |[0m    [33mif[0m (pos >= s.length()) [31mtrue[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                           ^^^^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mA pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
